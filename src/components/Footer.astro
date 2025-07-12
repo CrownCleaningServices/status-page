@@ -1,0 +1,12 @@
+<footer class="max-w-[1100px] w-full mx-auto px-5 py-10">
+    <p class="text-sm text-center text-gray-400">&copy; <span id="year"></span> Crown Cleaning Services. All rights reserved.</p></p>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const yearElement = document.getElementById('year');
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear().toString();
+        }
+    });
+</script>
