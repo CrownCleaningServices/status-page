@@ -1,1 +1,25 @@
 @import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@theme {
+  --color-primary: #3260ec;
+  --color-secondary: #5090ff;
+  --color-gray: #dcdedd;
+  --color-black: #081115;
+}
+
+@font-face {
+  font-family: "grotesk";
+  src: url("/fonts/cy-grotesk-key.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dm-sans";
+  src: url("/fonts/dm-sans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
